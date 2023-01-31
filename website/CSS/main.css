@@ -1,0 +1,76 @@
+header
+{
+  background-image: url("../Pictures/Almere.jpg");
+  margin-left: 0;
+  margin-right: 0;
+  opacity: 0.5;
+  height: 150px;
+}
+h1
+{
+  width: 100%;
+  margin-left: 45%;
+  font-family: 'Great Vibes', sans-serif;
+}
+h6
+{
+  width: 100%;
+  margin-left: 40%;
+}
+body
+{
+  height: 100%;
+}
+img
+{
+  float: right;
+  margin-right: 5px;
+}
+section
+{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+#leftside
+{
+  width: 18.18%;
+  min-width: 120px;
+  padding-right: 2px;
+  background-color: green;
+  display: inline-block;
+}
+#rightside
+{
+  padding-left: 2px;
+  width: 81.82%;
+  background-color: blue;
+  display: inline-block;
+}
+footer 
+{
+  height: 30px;
+  width: 100%;
+  background-color: brown;
+  color: yellow;
+}
+@media only screen and (max-width: 600px)
+{
+  footer 
+  {
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: gold;
+  }
+}
+@media only screen and (min-width: 768px)
+{
+  footer 
+  {
+    height: 30px;
+    width: 100%;
+    background-color: purple;
+    color: yellowgreen;
+  }
+}
